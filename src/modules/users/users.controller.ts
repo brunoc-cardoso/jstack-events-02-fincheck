@@ -1,4 +1,4 @@
-import { Controller, Get, Req } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 
 import { UsersService } from '_modules/users/users.service';
 import { ActiveUserId } from '_shared/decorators/ActiveUserId';
